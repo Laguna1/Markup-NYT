@@ -52,3 +52,52 @@
   flex:1;
   order:4;
 }
+.fourth {
+    display: flex;
+}
+.fourth-0 {
+    flex:1;
+    order:1;
+ }
+.fourth-1 {
+  flex:1;
+  order:2;
+  
+}
+.fourth-2 {
+  flex:1;
+  order:3;
+}
+.fifth {
+    display: flex;
+    align-items: center;
+}
+.fifth-0 {
+    flex:1;
+    order:1;
+ }
+.fifth-1 {
+  flex:1;
+  order:2;
+  
+}
+.fifth-2 {
+  flex:1;
+  order:3;
+}
+.sixth {
+    display: flex;
+}
+.six-0 {
+    flex:1;
+    order:1;
+ }
+.six-1 {
+  flex:1;
+  order:2;
+  
+}
+.six-2 {
+  flex:1;
+  order:3;
+}
