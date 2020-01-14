@@ -13,3 +13,42 @@
   /*  line-height: 75px; */
     font-size: 30px;
   }
+  .second {
+      display: flex;
+  }
+  .sec-1 {
+      flex:7;
+      order:2;
+      width: 100%;
+  }
+  .sec-2 {
+    flex:1;
+    order:1;
+  }
+  .sec-3 {
+    flex:1;
+    order:3;
+  }
+  img {
+      width: 100%;
+  }
+  .third {
+    display: flex; 
+  }
+  .third-0 {
+    flex:1;
+    order:1;
+   
+}
+.third-1 {
+  flex:7;
+  order:2;
+}
+.third-2 {
+    flex:1;
+    order:3;
+  }
+.third-3 {
+  flex:1;
+  order:4;
+}
