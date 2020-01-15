@@ -3,153 +3,235 @@
     flex-wrap: nowrap;
     flex-direction: column;
     background-color: DodgerBlue;
-  }
-  
-  .flex-container > div {
+}
+
+.flex-container>div {
     background-color: #f1f1f1;
     width: 100%;
     margin: 10px;
     text-align: center;
-  /*  line-height: 75px; */
+    /*  line-height: 75px; */
     font-size: 30px;
-  }
-  .second {
-      display: flex;
-  }
-  .sec-1 {
-      flex:7;
-      order:2;
-      width: 100%;
-  }
-  .sec-2 {
-    flex:1;
-    order:1;
-  }
-  .sec-3 {
-    flex:1;
-    order:3;
-  }
-  img {
-      width: 100%;
-  }
-  .third {
-    display: flex; 
-  }
-  .third-0 {
-    flex:1;
-    order:1;
-   
 }
+
+.second {
+    display: flex;
+}
+
+.sec-1 {
+    flex: 7;
+    order: 2;
+    width: 100%;
+}
+
+.sec-2 {
+    flex: 1;
+    order: 1;
+}
+
+.sec-3 {
+    flex: 1;
+    order: 3;
+}
+
+img {
+    width: 100%;
+}
+
+.third {
+    display: flex;
+}
+
+.third-0 {
+    flex: 1;
+    order: 1;
+
+}
+
 .third-1 {
-  flex:7;
-  order:2;
+    flex: 7;
+    order: 2;
 }
+
 .third-2 {
-    flex:1;
-    order:3;
-  }
-.third-3 {
-  flex:1;
-  order:4;
+    flex: 1;
+    order: 3;
 }
+
+.third-3 {
+    flex: 1;
+    order: 4;
+}
+
 .fourth {
     display: flex;
 }
+
 .fourth-0 {
-    flex:1;
-    order:1;
- }
+    flex: 1;
+    order: 1;
+}
+
 .fourth-1 {
-  flex:1;
-  order:2;
-  
+    flex: 2;
+    order: 2;
+
 }
+
 .fourth-2 {
-  flex:1;
-  order:3;
+    flex: 1;
+    order: 3;
 }
+
 .fifth {
     display: flex;
     align-items: center;
 }
+
 .fifth-0 {
-    flex:1;
-    order:1;
- }
+    flex: 1;
+    order: 1;
+}
+
 .fifth-1 {
-  flex:1;
-  order:2;
-  
+    flex: 2;
+    order: 2;
+
 }
+
 .fifth-2 {
-  flex:1;
-  order:3;
+    flex: 1;
+    order: 3;
 }
+
 .sixth {
     display: flex;
 }
+
 .six-0 {
-    flex:1;
-    order:1;
- }
-.six-1 {
-  flex:1;
-  order:2;
-  
+    flex: 1;
+    order: 1;
 }
+
+.six-1 {
+    flex: 2;
+    order: 2;
+
+}
+
 .six-2 {
-  flex:1;
-  order:3;
+    flex: 1;
+    order: 3;
+}
+
+.eighth {
+    display: flex;
+}
+
+.eighth-0 {
+    flex: 1;
+    order: 1;
+}
+
+.eighth-1 {
+    flex: 2;
+    order: 2;
+
+}
+
+.eighth-2 {
+    flex: 1;
+    order: 3;
+}
+
+iframe {
+    width: 560px;
+    height: 315px;
+}
+
+.ninth {
+    display: flex;
+}
+
+.ninth-0 {
+    flex: 1;
+    order: 1;
+}
+
+.ninth-1 {
+    flex: 2;
+    order: 2;
+
+}
+
+.ninth-2 {
+    flex: 1;
+    order: 3;
+}
+
+.sec-img {
+    width: 560px;
+    height: 315px;
+}
+.ninth-1 {
+    display: flex;
+    flex-direction: column;
 }
 .seventh {
     display: flex;
 }
+
 .seventh-0 {
     flex: 1;
-    order:1;
+    order: 1;
 }
+
 .seventh-1 {
     flex: 7;
-    order:2;
+    order: 2;
 }
+
 .seventh-2 {
     flex: 1;
-    order:3;
+    order: 3;
 }
+
 .seventh-1 {
     display: flex;
     flex-direction: column;
-    
+
 }
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 25%);
     grid-gap: 10px;
     background-color: #2196F3;
     padding: 10px;
-    
+
 }
-.grid-container > div {
-  /*  background-color: rgba(255, 255, 255, 0.8); */
+
+.grid-container>div {
+    /*  background-color: rgba(255, 255, 255, 0.8); */
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
-  }
-  .seventh-10 {
+}
+
+.seventh-10 {
     background-image: url(https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png);
     background-size: cover;
 }
- .g-aiPstyle0 {
+
+.g-aiPstyle0 {
     font-size: 14px;
     line-height: 17px;
     font-weight: 300;
     color: #000000;
 }
- .g-sc {
+
+.g-sc {
     font-size: 11px;
     font-weight: bold;
     letter-spacing: .05em;
- }
- /* .g-aiAbs {
-     position: absolute;
- } */
+}
