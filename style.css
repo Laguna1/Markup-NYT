@@ -255,14 +255,118 @@ iframe {
     display: flex;
     flex-direction: column;
 }
-.tenth {
+* {
+    box-sizing: border-box;
+  }
+  
+  .flex-container {
     display: flex;
-}
-.left-side-down {
-    flex:3;
-    order:1;
-}
-.right-side-down {
-    flex:1;
-    order:2;
-}
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  
+  .flex-container > div {
+   width: 100%;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .tenth {
+    display: flex;
+  }
+  .tenth {
+    margin-top: 45px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .left-side-down {
+    flex: 3;
+    order: 1;
+    max-width: 852px;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid black;
+  }
+  
+  .right-side-down {
+    flex: 1;
+    order: 2;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.375rem;
+    padding-bottom: 15px;
+    border-top: 1px solid rgb(0, 0, 0);
+    margin-left: 4em;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .mp-0 {
+    padding: 17px 0px 0px;
+    text-align: left;
+  }
+  .popular-news {
+    margin-top: 15px;
+    border-top: 1px solid rgb(226, 226, 226);
+    list-style: none;
+  }
+  .popular-news-0 {
+    text-align: left;
+  }
+  .popular-news-1 {
+    color: rgb(18, 18, 18);
+    font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.37;
+    text-decoration: none;
+  }
+  .left-side-down {
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.375rem;
+    padding-bottom: 15px;
+    border-top: 1px solid rgb(0, 0, 0);
+    margin-left: 1em;
+  }
+  .left-side-1 {
+    max-width: 852px;
+  }
+  .part-1-left,
+  .part-2-left {
+    display: flex;
+   flex-direction: column;
+  }
+  .p1-1-left,
+  .p1-2-left,
+  .part-2-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .small-video {
+    width: 32%;
+  }
+  .sw-1-1-1 {
+    width: 270px;
+    height: auto;
+  }  
+  .sw-1-1-2 {
+    text-align: right;
+    color: rgb(153, 153, 153);
+    font-size: 0.6em;
+    line-height: 1.23em;
+    margin: 3px 15px 0px;
+  }
+  
+  .hz {
+    margin-right: 76%;
+    letter-spacing: 0.3px;
+    color: rgb(153, 153, 153);
+  }
