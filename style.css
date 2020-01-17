@@ -102,11 +102,11 @@ nav {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    background-color: DodgerBlue;
+ /*   background-color: DodgerBlue;  */
 }
 
 .flex-container>div {
-    background-color: #f1f1f1;
+ /*   background-color: #f1f1f1;  */
     width: 100%;
     margin: 10px;
  /*   text-align: center; */
@@ -252,7 +252,21 @@ color: #666;
     flex: 1;
     order: 3;
 }
+.t-all {
+font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: #333333;
+    margin: 0 0 1em;
+}
+.ins-t-all{
+    color: blue;
+    text-decoration: underline;
+}
 
+ a:visited {
+    color: darkblue;
+}
 .sixth {
     display: flex;
 }
@@ -272,9 +286,14 @@ color: #666;
     flex: 1;
     order: 3;
 }
+.s-in-t-alt {
+    font-weight: 700;
+    font-size: 25px;
+}
 
 .eighth {
     display: flex;
+    padding: 1.5rem 0;
 }
 
 .eighth-0 {
@@ -302,21 +321,27 @@ section {
 .picture-8 {
     position: relative;
     margin: 0 auto;
-    width: 1200px;
+    width: 88%;
 }
 
-.titul-p-8 p {
+.titul-p-8 {
     font-family: nyt-cheltenham, times new roman, times, serif;
     text-align: left;
+    line-height: 1.1rem;
+    padding-bottom: 0.5rem;
     
 }
-
+.up-1 {
+    font-size: 1em;
+    padding-bottom: 0.5rem;
+}
 h2 {
     display: block;
     font-size: 1.5em;
     text-align: left;
     font-weight: bold;
 }
+
 
 .picture-8>p {
     color: #666;
@@ -360,10 +385,11 @@ h2 {
 }
 
 .autors-p-8 {
-    clear: both;
-    margin-top: 25px;
-    text-align: left;
-    color: #333;
+    font-size: .875rem;
+    line-height: 1.125rem;
+    font-weight: 500;
+    font-style: normal;
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
 }
 
 
