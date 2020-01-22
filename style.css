@@ -7,7 +7,7 @@ header {
     position: fixed;
     width: 100%;
     height: 2em;
- /*   border: 1px solid black; */
+    /*   border: 1px solid black; */
     z-index: 100;
 }
 
@@ -21,7 +21,7 @@ nav {
 
 .navcontainer {
     display: flex;
- /*   align-items: center;  */
+    /*   align-items: center;  */
     justify-content: space-between;
     max-width: 1600px;
     height: inherit;
@@ -90,6 +90,7 @@ nav {
     font-weight: 700;
     margin-right: 10px;
 }
+
 .h-im-1 {
     height: 70%;
 }
@@ -102,14 +103,14 @@ nav {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
- /*   background-color: DodgerBlue;  */
+    /*   background-color: DodgerBlue;  */
 }
 
 .flex-container>div {
- /*   background-color: #f1f1f1;  */
+    /*   background-color: #f1f1f1;  */
     width: 100%;
     margin: 10px;
- /*   text-align: center; */
+    /*   text-align: center; */
     font-size: 30px;
 }
 
@@ -148,31 +149,36 @@ nav {
     font-weight: bold;
     font-style: italic;
 }
+
 .image1 {
     padding-left: 50px;
 }
+
 .m-im-1 {
     max-width: 94%;
     height: auto;
     cursor: pointer;
 }
+
 figcaption {
-font-size: 15px;
-/*font-family: nyt-imperial; 
+    font-size: 15px;
+    /*font-family: nyt-imperial; 
 color: #666;*/
 }
-.fc-fig-im-1{
-max-width: 74%;
-font-size: 0.93rem;
-line-height: 1.2rem;
-font-family: nyt-imperial;
-color: #666;
+
+.fc-fig-im-1 {
+    max-width: 74%;
+    font-size: 0.93rem;
+    line-height: 1.2rem;
+    font-family: nyt-imperial;
+    color: #666;
 }
+
 .sp-1 {
-   
-        color: #888888;
-        font: 14px nyt-imperial;
-     }
+
+    color: #888888;
+    font: 14px nyt-imperial;
+}
 
 /* img {
     width: 100%;
@@ -305,9 +311,11 @@ i {
     flex: 1;
     order: 3;
 }
+
 aside {
     padding: 0 1.5em;
 }
+
 .fif-2-as {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-weight: 700;
@@ -320,27 +328,31 @@ aside {
     letter-spacing: 0.02em;
     border-bottom: 2px solid rgb(226, 226, 226);
 }
+
 .fi-2-as-1 {
     margin-bottom: 15px;
 }
+
 .asid-rpp-img {
     width: 85px;
     height: auto;
     vertical-align: middle;
     padding-bottom: 0.5em;
 }
-.asid-rp-6 > a {
-  /*  display: inline-block; */
+
+.asid-rp-6>a {
+    /*  display: inline-block; */
     width: calc(100% - 90px);
     text-decoration: none;
-    color: rgb(51,51,51);
+    color: rgb(51, 51, 51);
     font-family: nyt-cheltenham-small, georgia, "times new roman";
     font-size: 14px;
     font-weight: 500;
     line-height: 17px;
-    
+
     float: right;
 }
+
 /*
 .fi-2-as-2-0 {
     display: block;
@@ -375,20 +387,22 @@ aside {
 }    */
 
 .t-all {
-font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
     font-size: 1.25rem;
     line-height: 1.875rem;
     color: #333333;
     margin: 0 0 1em;
 }
-.ins-t-all{
+
+.ins-t-all {
     color: blue;
     text-decoration: underline;
 }
 
- a:visited {
+a:visited {
     color: darkblue;
 }
+
 .sixth {
     display: flex;
 }
@@ -408,6 +422,7 @@ font-family: nyt-imperial,georgia,'times new roman',times,serif;
     flex: 1;
     order: 3;
 }
+
 .s-in-t-alt {
     font-weight: 700;
     font-size: 25px;
@@ -433,8 +448,9 @@ font-family: nyt-imperial,georgia,'times new roman',times,serif;
     flex: 1;
     order: 3;
 }
+
 section {
-/*    border: 1px solid black;   */
+    /*    border: 1px solid black;   */
     margin: auto 0;
     padding: 1%;
     display: block;
@@ -451,12 +467,14 @@ section {
     text-align: left;
     line-height: 1.1rem;
     padding-bottom: 0.5rem;
-    
+
 }
+
 .up-1 {
     font-size: 1em;
     padding-bottom: 0.5rem;
 }
+
 h2 {
     display: block;
     font-size: 1.5em;
@@ -511,13 +529,18 @@ h2 {
     line-height: 1.125rem;
     font-weight: 500;
     font-style: normal;
-    font-family: nyt-franklin,arial,helvetica,sans-serif;
+    font-family: nyt-franklin, arial, helvetica, sans-serif;
 }
 
 
 iframe {
-    width: 560px;
-    height: 315px;
+    width: 100%;
+    height: 450px;
+    padding-top: 1.5em;
+}
+
+iframe+figcaption {
+    padding-bottom: 3.5em;
 }
 
 .ninth {
@@ -540,6 +563,7 @@ iframe {
     flex: 1;
     order: 3;
 }
+
 .big-down-btn {
     width: 330px;
     height: 36px;
@@ -552,15 +576,22 @@ iframe {
     color: white;
     font-family: nyt-franklin, arial, sans-serif;
 }
+
 .p-09 {
     float: right;
     padding-right: 4em;
 }
 
 .sec-img {
-    width: 560px;
-    height: 315px;
+    width: 100%;
+    height: 450px;
+    padding-top: 1.5em;
 }
+
+.sec-img+figcaption {
+    padding-bottom: 2.5em;
+}
+
 /*
 .ninth-1 {
     display: flex;
@@ -569,22 +600,23 @@ iframe {
 */
 .tenth {
     display: flex;
-  }
-  .tenth {
+}
+
+.tenth {
     margin-top: 45px;
     padding-top: 20px;
     margin-left: auto;
     margin-right: auto;
-  }
-  
-  .left-side-down {
+}
+
+.left-side-down {
     flex: 3;
     order: 1;
     max-width: 852px;
     background-color: rgb(255, 255, 255);
-  }
-  
-  .right-side-down {
+}
+
+.right-side-down {
     flex: 1;
     order: 2;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -594,37 +626,48 @@ iframe {
     padding-bottom: 15px;
     border-top: 1px solid rgb(0, 0, 0);
     margin-left: 4em;
-  }
-  a {
+}
+
+a {
     text-decoration: none;
     color: black;
-  }
-  
-  .mp-0 {
+}
+
+.mp-0 {
+    padding: 1.1em 0;
+    text-align: left;
+    color: rgb(51, 51, 51);
+    font-size: 18px;
+    font-weight: 700;
+    font-family: nyt-franklin;
+    line-height: 15px;
+}
+
+.part-2-left {
     padding: 17px 0px 0px;
     text-align: left;
-  }
-  .part-2-left {
-    padding: 17px 0px 0px;
-    text-align: left;
-  }
-  .popular-news {
+}
+
+.popular-news {
     margin-top: 15px;
     border-top: 1px solid rgb(226, 226, 226);
     list-style: none;
-  }
-  .popular-news-0 {
+}
+
+.popular-news-0 {
     text-align: left;
-  }
-  .popular-news-1 {
+}
+
+.popular-news-1 {
     color: rgb(18, 18, 18);
     font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 500;
     line-height: 1.37;
     text-decoration: none;
-  }
-  .left-side-down {
+}
+
+.left-side-down {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-size: 1rem;
     font-weight: 700;
@@ -632,48 +675,64 @@ iframe {
     padding-bottom: 15px;
     border-top: 1px solid rgb(0, 0, 0);
     margin-left: 1em;
-  }
-  .left-side-1 {
+}
+
+.left-side-1 {
     max-width: 852px;
-  }
-  .part-1-left,
-  .part-2-left {
+}
+
+.part-1-left,
+.part-2-left {
     display: flex;
     flex-direction: column;
-  }
-  .p1-1-left,
-  .p1-2-left,
-  .part-2-left {
+}
+
+.p1-1-left,
+.p1-2-left,
+.part-2-left {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  }
-  .small-video {
+}
+
+.small-video {
     width: 32%;
-  }
-  .sw-1-1-1 {
+}
+
+.sw-1-1-1 {
     width: 270px;
     height: auto;
-  }
-  .sw-1-1-2 {
+}
+
+.sw-1-1-2 {
     text-align: right;
     color: rgb(153, 153, 153);
-    font-size: 0.6em;
+    font-size: 0.7em;
+    text-transform: uppercase;
     line-height: 1.23em;
     margin: 3px 15px 0px;
-  }
-  
-  .hz {
+    padding-bottom: 5px;
+}
+
+.hz {
     margin-right: 76%;
     letter-spacing: 0.3px;
     color: rgb(153, 153, 153);
-  }
-  .l-side-2 > a > h3 {
+    float: left;
+}
+
+time {
+    color: rgb(153, 153, 153);
+    font-size: 0.5em;
+    text-transform: uppercase;
+}
+
+.l-side-2>a>h3 {
     border-top: 1px solid black;
     text-align: left;
-  }
-  
-  footer {
+}
+
+footer {
     background-color: #fff;
     border-top: medium double lightgray;
 }
@@ -690,7 +749,7 @@ iframe {
     width: initial;
     height: 1.3em;
     cursor: pointer;
-    
+
 }
 
 .homepage {
@@ -701,7 +760,7 @@ iframe {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     text-transform: capitalize;
     text-decoration-line: none;
-  
+
 }
 
 .f1 {
@@ -720,11 +779,12 @@ h3 {
     font-weight: 700;
     font-family: nyt-franklin;
     line-height: 15px;
- /*   height: 25px;             
+    /*   height: 25px;             
      text-transform: uppercase; 
     width: 150px; */
     margin: 0px;
 }
+
 .f1-h3 {
     padding-bottom: 1em;
 }
@@ -817,9 +877,11 @@ h3 {
     border-left: 1px solid lightgray;
     padding-left: 20px;
 }
+
 .f6-col-6-1m {
     border-top: 1px solid lightgray;
 }
+
 .flinks2 {
     list-style-type: none;
     border: none;
