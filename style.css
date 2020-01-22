@@ -252,6 +252,53 @@ color: #666;
     flex: 1;
     order: 3;
 }
+.fif-2-as {
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding-bottom: 12px;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+.fi-2-as-1 {
+    margin-bottom: 15px;
+}
+.fi-2-as-2-0 {
+    display: block;
+    width: 110px;
+    margin-left: 0px;
+}
+.fid-2-as-200 {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.as-rp-1v {
+    display: block;
+    width: 75px;
+    margin-left: 0px;
+    padding-bottom: 7px;
+}
+.fi-as-img {
+    width: 90px;
+    border: none;
+}
+.as-rp-1v-h {
+    font-family: nyt-cheltenham-small, georgia, "times new roman";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    width: 100%;
+    color: rgb(51, 51, 51);
+    padding-bottom: 16px;
+   
+}
+
 .t-all {
 font-family: nyt-imperial,georgia,'times new roman',times,serif;
     font-size: 1.25rem;
@@ -427,7 +474,7 @@ iframe {
     flex-direction: column;
 }
 
- .tenth {
+.tenth {
     display: flex;
   }
   .tenth {
@@ -442,7 +489,6 @@ iframe {
     order: 1;
     max-width: 852px;
     background-color: rgb(255, 255, 255);
-    border-top: 1px solid black;
   }
   
   .right-side-down {
@@ -462,6 +508,10 @@ iframe {
   }
   
   .mp-0 {
+    padding: 17px 0px 0px;
+    text-align: left;
+  }
+  .part-2-left {
     padding: 17px 0px 0px;
     text-align: left;
   }
@@ -495,9 +545,8 @@ iframe {
   }
   .part-1-left,
   .part-2-left {
-     display: flex;
-     flex-direction: column;
-     padding-top: 1em;
+    display: flex;
+    flex-direction: column;
   }
   .p1-1-left,
   .p1-2-left,
@@ -505,7 +554,6 @@ iframe {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 1em;
   }
   .small-video {
     width: 32%;
@@ -513,7 +561,7 @@ iframe {
   .sw-1-1-1 {
     width: 270px;
     height: auto;
-  }  
+  }
   .sw-1-1-2 {
     text-align: right;
     color: rgb(153, 153, 153);
@@ -527,6 +575,11 @@ iframe {
     letter-spacing: 0.3px;
     color: rgb(153, 153, 153);
   }
+  .l-side-2 > a > h3 {
+    border-top: 1px solid black;
+    text-align: left;
+  }
+  
   footer {
     background-color: #fff;
 }
@@ -576,10 +629,10 @@ h3 {
     font-size: 13px;
     font-weight: 700;
     font-family: nyt-franklin;
- /*   height: 25px;             */
     line-height: 15px;
-    text-transform: uppercase;
-    width: 150px;
+ /*   height: 25px;             
+     text-transform: uppercase; 
+    width: 150px; */
     margin: 0px;
 }
 .f1-h3 {
