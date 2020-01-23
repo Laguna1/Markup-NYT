@@ -7,21 +7,36 @@ header {
     position: fixed;
     width: 100%;
     height: 2em;
-    /*   border: 1px solid black; */
+    margin: 0;
+    padding: 0 15px;
+    border-bottom: 1px solid lightgray;
+    background: white;
     z-index: 100;
 }
+nav {
+    width: 100%;
+    position: relative;
+}
+nav:nth-child(3) {
+    display: inline-block;
+}
+.lefthead {
+    position: absolute;
+    display: inline-block;
+    left: 0;
+}
 
+/*
 nav {
     height: 42px;
     width: 100%;
     position: fixed;
-    border-bottom: 1px solid lightgray;
-    background: white;
+    
 }
 
 .navcontainer {
     display: flex;
-    /*   align-items: center;  */
+      align-items: center;  
     justify-content: space-between;
     max-width: 1600px;
     height: inherit;
@@ -29,18 +44,36 @@ nav {
     box-sizing: content-box;
 }
 
+
 .navcontainer>* {
     flex: 1;
     display: flex;
     align-items: center;
 }
-
-.righthead {
-    justify-content: flex-end;
+*/
+#space {
+    height: 100%;
+  width: 30px;
+  display: inline-block;
+  margin-right: 12px;
 }
-
 .centerhead {
-    justify-content: center;
+    display: inline-block;
+  width: 195px;
+  height: 25.64px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7px;
+  left: 0;
+  right: 0;
+}
+.righthead {
+    display: inline-block;
+  margin-right: 30px;
+  position: absolute;
+  right: 0;
+  padding-top: 4px;
 }
 
 .lefthead>button:hover {
@@ -71,6 +104,7 @@ nav {
 }
 
 #space .space1 {
+   
     text-decoration: none;
     color: black;
     cursor: pointer;
